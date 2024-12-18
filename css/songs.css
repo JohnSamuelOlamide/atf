@@ -42,9 +42,11 @@ body {
   margin: 0 auto;
   font-family: "Helvetica Neue", Poppins;
   border-bottom: 1px solid #9f0401;
-  /* text-align: center; */
   padding: 10px 0;
   display: block;
+}
+.toc .table-content:hover {
+  color: #121212;
 }
 .toc .table-content:last-child {
   border: none !important;
