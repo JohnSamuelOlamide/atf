@@ -1,3 +1,19 @@
+@media (max-width: 365px) 
+{
+    @keyframes float {
+        0% {
+          transform: translateY(15%);
+        }
+      
+        50% {
+          transform: translateY(14%);
+        }
+      
+        100% {
+          transform: translateY(15%);
+        }
+      }
+}
 @media (max-height: 560px) {
   html:has(#hamburger-toggle:checked) {
     .nav {
