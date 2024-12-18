@@ -79,4 +79,7 @@
   .header-content-wrapper {
     display: none;
   }
+  .desktop-header-content {
+    display: block;
+  }
 }

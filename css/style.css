@@ -243,6 +243,9 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
   margin-top: 14px;
   font-weight: 500;
 }
+.desktop-header-content{
+  display: none;
+}
 .count-down {
   margin: 155px auto 20px;
   background: whitesmoke;
