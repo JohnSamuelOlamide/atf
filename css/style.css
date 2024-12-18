@@ -75,7 +75,7 @@ body {
   z-index: 99;
   background: white;
   top: 0;
-left:0;
+  left: 0;
   width: 100%;
   height: 100px;
   display: flex;
@@ -172,7 +172,7 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+  max-width: 70%;
 }
 .mobile-nav-overlay-content-wrapper .nav-item {
   color: #9f0401;
