@@ -30,10 +30,24 @@ body {
   font-family: "Formula Condensed", "Helvetica Neue";
   font-size: 50px;
   line-height: 1.1;
-
   width: 70%;
   margin: 0 auto;
   letter-spacing: 1px;
+}
+.toc .table-content {
+  margin-top: 100px;
+  color: #9f0401;
+  width: 70%;
+  font-size: large;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Poppins;
+  border-bottom: 1px solid #9f0401;
+  /* text-align: center; */
+  padding: 10px 0;
+  display: block;
+}
+.toc .table-content:last-child {
+  border: none !important;
 }
 
 .song {
@@ -55,6 +69,7 @@ body {
   font-weight: 600;
   color: #474747;
   text-align: left;
+  font-size: large;
 }
 .song-lyrics .song-lyrics-paragraph {
   display: block;
