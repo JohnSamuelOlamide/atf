@@ -1,0 +1,40 @@
+@media (min-width: 650px) {
+  .header-content-wrapper {
+    width: 60%;
+    border-radius: 20px;
+  }
+  .header-content-wrapper .header-flyer {
+    border-radius: 20px;
+  }
+  .count-down {
+    width: 70%;
+    margin-top: 170px;
+  }
+  .nav {
+    position: fixed;
+    border-radius: 0 0 20px 20px;
+    z-index: 99;
+    background: white;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 89%;
+    height: 100px;
+    display: flex;
+    box-shadow: 0px 2px 7px 0px #00000028;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav .logo {
+    margin-left: 20px;
+  }
+  .nav .mobile-nav-hamburger {
+    margin-right: 40px;
+  }
+  .header {
+    background: rgba(0, 0, 0, 1);
+  }
+  .header-content-wrapper{
+    display: none;
+  }
+}
