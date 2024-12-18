@@ -73,7 +73,8 @@
     margin-right: 40px;
   }
   .header {
-    background: rgba(0, 0, 0, 1);
+    background: url("../assets/images/theme.jpg") no-repeat;
+    background-size: cover;
   }
   .header-content-wrapper {
     display: none;
