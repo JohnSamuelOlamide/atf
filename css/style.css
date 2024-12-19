@@ -158,7 +158,7 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
 /* Mobile Nav */
 .mobile-nav-overlay {
   position: fixed;
-  background: whitesmoke;
+  background: #850301;
   width: 100%;
   z-index: 97;
   top: 0;
@@ -173,9 +173,10 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
   flex-direction: column;
   gap: 10px;
   max-width: 90%;
+  margin-bottom: -100px;
 }
 .mobile-nav-overlay-content-wrapper .nav-item {
-  color: #9f0401;
+  color: white;
   font-size: 40px;
   line-height: 1.2;
   text-transform: uppercase;

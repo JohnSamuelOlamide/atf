@@ -73,17 +73,36 @@
     margin-right: 40px;
   }
   .header {
-    background: rgb(40, 40, 40);
-    /* background: url("../assets/images/theme.jpg") no-repeat; */
+    /* background: rgb(40, 40, 40); */
+    
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("../assets/images/paper-bg.jpg") no-repeat;
     background-size: cover;
-  }
+  } 
   .header-bg-blur {
     display: none;
   }
   .desktop-header-content {
     display: block;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #9f0401;
     z-index: 35;
+  }
+  .desktop-header-content .atf-logo{
+    height: 100px;
+    margin-top: 130px;
+  }
+  .desktop-header-content .theme-text{
+width: 100%;
+margin-top: -100px;
+margin-left: -20px;
+
   }
   .desktop-header-content h1 {
     font-family: "Poppins";
