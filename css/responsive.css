@@ -112,6 +112,6 @@
     z-index: 40;
   }
   .count-down a {
-    transform: scale(1) translateY(-16px);
+    transform: scale(1) translateY(-14px);
   }
 }
