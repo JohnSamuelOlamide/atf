@@ -5,6 +5,11 @@
   border: none;
   text-decoration: none;
 }
+:root {
+  --red: #9f0401;
+  --dark-red: #850301;
+  --off-white: whitesmoke;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -146,11 +151,11 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
 }
 .nav .mobile-nav-hamburger span.mobile-hamburger-dash {
   width: 100%;
-  /* box-shadow: 0.5px 0.5px 1.1px #9f0401; */
+  /* box-shadow: 0.5px 0.5px 1.1px var(--red); */
 
   border-radius: 4px;
   height: 3px;
-  background: #9f0401;
+  background: var(--red);
   transition: 0.3s ease-in-out;
   transition-property: transform opacity;
 }
@@ -158,7 +163,7 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
 /* Mobile Nav */
 .mobile-nav-overlay {
   position: fixed;
-  background: #850301;
+  background: var(--dark-red);
   width: 100%;
   z-index: 97;
   top: 0;
@@ -244,12 +249,12 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
   margin-top: 14px;
   font-weight: 500;
 }
-.desktop-header-content{
+.desktop-header-content {
   display: none;
 }
 .count-down {
   margin: 155px auto 20px;
-  background: whitesmoke;
+  background: var(--off-white);
   padding: 20px 0;
   width: 90%;
   border-radius: 35px;
@@ -260,6 +265,7 @@ html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
 }
 .count-down a {
   transform: scale(1.1) translateY(-8px);
+  pointer-events: none;
 }
 @keyframes float {
   0% {

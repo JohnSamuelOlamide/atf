@@ -1,3 +1,8 @@
+:root {
+  --red: #9f0401;
+  --dark-red: #850301;
+  --off-white: whitesmoke;
+}
 @media (max-width: 365px) {
   @keyframes float {
     0% {
@@ -55,7 +60,9 @@
     margin-top: 170px;
   }
   .nav {
+    border-bottom: 2.5px solid var(--red);
     position: fixed;
+
     border-radius: 0 0 20px 20px;
     z-index: 99;
     background: white;
@@ -76,8 +83,6 @@
     margin-right: 40px;
   }
   .header {
-    /* background: rgb(40, 40, 40); */
-
     background: linear-gradient(
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.3)
@@ -94,17 +99,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #9f0401;
+    color: var(--red);
     z-index: 35;
   }
   .desktop-header-content .atf-logo {
     height: 100px;
     margin-top: 130px;
+    /* position: fixed; */
   }
   .desktop-header-content .theme-text {
     width: 100%;
     margin-top: -100px;
     margin-left: -20px;
+    /* position: fixed; */
   }
   .desktop-header-content h1 {
     font-family: "Poppins";
@@ -128,7 +135,7 @@
   }
   .count-down {
     width: 70%;
-    margin-top: -93px;
+    margin-top: -65px;
     position: relative;
     z-index: 40;
   }
