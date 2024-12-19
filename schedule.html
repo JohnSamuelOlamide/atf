@@ -28,6 +28,21 @@
       /* ::-webkit-scrollbar {
         display: none;
       } */
+      .mobile-schedule-iframe {
+        margin-top: 200px;
+        width: 90%;
+        margin-right:  auto;
+        margin-left:  auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+      }
+      .mobile-schedule-iframe iframe {
+        border-radius: 35px;
+        border: 5px solid #9f0e019f;
+      }
     </style>
   </head>
 
@@ -71,21 +86,26 @@
       </div>
       <div class="desktop-header-content">
         <img src="./assets/images/atf-logo.png" class="atf-logo" alt="" />
-        <!-- <embed src="./assets/downloads/ATF 2024 Programme.pdf" width="80%" height="1000px" /> -->
         <iframe
           src="./assets/downloads/ATF 2024 Programme.pdf"
           style="
             border-radius: 35px;
             width: 90%;
             margin-top: 20px;
+            margin-bottom: 150px;
             height: 1000px;
-            border: none;
+            border: 10px solid #9f0e019f;
           "
         ></iframe>
-        –
       </div>
     </header>
 
-    <section></section>
+    <section class="mobile-schedule-iframe">
+      <iframe
+        src="./assets/downloads/ATF 2024 Programme.pdf"
+        width="100%"
+        height="1000px"
+      ></iframe>
+    </section>
   </body>
 </html>
