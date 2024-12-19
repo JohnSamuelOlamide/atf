@@ -23,10 +23,8 @@
     .nav {
       transition: 0.45s;
     }
-    html:has(.nav .mobile-nav-hamburger #hamburger-toggle:checked) {
-      .nav .mobile-nav-hamburger span.mobile-hamburger-dash {
-        background: white;
-      }
+    .nav .mobile-nav-hamburger span.mobile-hamburger-dash {
+      background: white;
     }
     .logo {
       pointer-events: none;
