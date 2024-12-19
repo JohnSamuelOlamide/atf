@@ -1,13 +1,17 @@
+:root {
+  --red: #9f0401;
+  --dark-red: #850301;
+  --off-white: whitesmoke;
+}
+
 body {
-  /* background: linear-gradient(
-      rgba(255, 255, 255, 0.929),
-      rgba(255, 255, 255, 0.929)
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
     ),
-    url("../assets/images/1.jpg"); */
-  /* background: url("../assets/images/2.jpg"); */
+    url("../assets/images/paper-bg.jpg");
   background-size: cover;
-  background: whitesmoke;
-  /* background-position: left; */
+  background-position: left;
   min-height: 100vh;
   margin: 0;
 }
@@ -19,7 +23,7 @@ body {
   margin-top: 50px;
 }
 .title h1 {
-  color: #9f0401;
+  color: var(--red);
   font-family: "Formula Condensed", "Helvetica Neue";
   font-size: 50px;
   line-height: 1.1;
@@ -29,17 +33,17 @@ body {
 }
 .toc .table-content {
   margin-top: 100px;
-  color: #9f0401;
+  color: var(--red);
   width: 70%;
   font-size: large;
   margin: 0 auto;
   font-family: "Helvetica Neue", Poppins;
-  border-bottom: 1px solid #9f0401;
+  border-bottom: 1px solid var(--red);
   padding: 10px 0;
   display: block;
 }
 .toc .table-content:hover {
-  color: #121212;
+  color: var(--dark-red);
 }
 .toc .table-content:last-child {
   border: none !important;
@@ -53,7 +57,7 @@ body {
 .song-title {
   margin: 0 auto;
   font-weight: 700;
-  color: #323232;
+  color: #1f1f1f;
   font-family: "Poppins";
   font-size: 40px;
   line-height: 1.02;
@@ -62,7 +66,7 @@ body {
 .song-lyrics {
   font-family: "poppins", Poppins;
   font-weight: 600;
-  color: #474747;
+  color: #323232;
   text-align: left;
   font-size: large;
 }
