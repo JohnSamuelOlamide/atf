@@ -24,6 +24,31 @@
   }
 }
 @media (max-height: 560px) {
+  .nav {
+    position: absolute;
+   
+  }
+  /* html:has(#hamburger-toggle:checked) {
+    .nav {
+      transition: 0.45s;
+      position: absolute;
+    }
+
+    .nav .mobile-nav-hamburger span.mobile-hamburger-dash {
+      background: white;
+    }
+    .nav .logo {
+      pointer-events: none;
+      opacity: 0;
+      cursor: default;
+    }
+  } */
+
+  .mobile-nav-overlay-content-wrapper {
+    margin-bottom: -100px;
+  }
+}
+@media (min-width: 650px) {
   html:has(#hamburger-toggle:checked) {
     .nav {
       transition: 0.45s;
@@ -50,12 +75,6 @@
       box-shadow: none;
     }
   }
-
-  .mobile-nav-overlay-content-wrapper {
-    margin-bottom: -100px;
-  }
-}
-@media (min-width: 650px) {
   .nav {
     position: absolute;
     z-index: 99;
@@ -78,6 +97,7 @@
     margin-right: 70px;
   }
   .header {
+    min-height: 610px;
     background: linear-gradient(
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 1)
@@ -99,15 +119,12 @@
     z-index: 35;
   }
   .desktop-header-content .atf-logo {
-    height: 100px;
-    margin-top: 110px;
-    /* position: fixed; */
+    max-height: 100px;
+    margin-top: 15px;
   }
   .desktop-header-content .theme-text {
-    width: 40%;
-    margin-top: -100px;
+    max-width: 40%;
     margin-left: -20px;
-    /* position: fixed; */
   }
   .mobile-schedule-iframe {
     display: none;
