@@ -4,22 +4,14 @@ body {
       rgba(255, 255, 255, 0.929)
     ),
     url("../assets/images/1.jpg"); */
-  background: url("../assets/images/2.jpg");
+  /* background: url("../assets/images/2.jpg"); */
   background-size: cover;
+  background: whitesmoke;
   /* background-position: left; */
   min-height: 100vh;
   margin: 0;
 }
 
-.body-bg-white-overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  background: rgba(255, 255, 255, 0.929);
-}
 .title .song {
   z-index: 20;
 }

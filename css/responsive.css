@@ -73,13 +73,45 @@
     margin-right: 40px;
   }
   .header {
-    background: url("../assets/images/theme.jpg") no-repeat;
+    background: rgb(40, 40, 40);
+    /* background: url("../assets/images/theme.jpg") no-repeat; */
     background-size: cover;
   }
-  .header-content-wrapper {
+  .header-bg-blur {
     display: none;
   }
   .desktop-header-content {
     display: block;
+    color: white;
+    z-index: 35;
+  }
+  .desktop-header-content h1 {
+    font-family: "Poppins";
+  }
+  .desktop-header-content h1:first-child {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  .desktop-header-content h1:nth-child(2) {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.1;
+    width: 90%;
+  }
+  .desktop-header-content h2 {
+    width: 60%;
+    font-family: "Formula Condensed";
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  .count-down {
+    width: 70%;
+    margin-top: -93px;
+    position: relative;
+    z-index: 40;
+  }
+  .count-down a {
+    transform: scale(1) translateY(-16px);
   }
 }
