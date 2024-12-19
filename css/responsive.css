@@ -27,6 +27,7 @@
   html:has(#hamburger-toggle:checked) {
     .nav {
       transition: 0.45s;
+      position: fixed;
     }
 
     .nav .mobile-nav-hamburger span.mobile-hamburger-dash {
@@ -56,13 +57,7 @@
   }
 }
 @media (min-width: 650px) {
-  .header-content-wrapper {
-    width: 60%;
-    border-radius: 20px;
-  }
-  .header-content-wrapper .header-flyer {
-    border-radius: 20px;
-  }
+  
  
   .nav {
     position: absolute;
@@ -97,6 +92,7 @@
     display: none;
   }
   .desktop-header-content {
+    width: 100%;
     display: block;
     display: flex;
     flex-direction: column;
@@ -138,7 +134,7 @@
   }
   
   .count-down {
-    background: linear-gradient(white,#9f04016b);
+    background: linear-gradient(white,#85030188);
     box-shadow: none;
     border: none;
     width: 100%;
